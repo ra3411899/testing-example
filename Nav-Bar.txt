@@ -1,0 +1,38 @@
+* {
+            margin: 0;
+            padding: 0;
+          }
+          .navbar{
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 3rem;
+            background: #cfd8dc;
+            text-decoration: none;
+          }
+          
+          .nav-list{
+            display: flex;
+            list-style: none;
+          }
+          
+          .nav-list > li{
+            padding: 0.5rem;
+          
+          }
+          
+          .navbar a{
+            text-decoration: none;
+          }
+
+<nav class = "navbar">
+        <h3><a href="">Google</a></h3>
+        <ul class= "nav-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <div class="right-nav">
+            <input type="search" name="search" id="search">
+            <button>Search</button>
+        </div>
+    </nav>
